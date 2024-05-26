@@ -2,7 +2,7 @@ name: Generate Podcast Feeds
 on: [push]
 jobs:
   build:
-    runs-on: python-3.13.0b1-alpine3.20
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
